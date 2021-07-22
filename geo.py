@@ -28,5 +28,5 @@ if __name__ == '__main__':
             data.append(trace)
 
         data_matrix = np.array(data, np.int32)
-
-        print(data_matrix)
+        ## each row is a trace
+        # print(data_matrix)
